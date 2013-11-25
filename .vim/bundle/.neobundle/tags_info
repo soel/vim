@@ -1,0 +1,9 @@
+neobundle.vim
+neocomplcache
+neosnippet
+rails.vim
+unite.vim
+vim-rails
+vim-rsense
+vimfiler
+vimshell
