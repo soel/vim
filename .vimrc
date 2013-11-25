@@ -79,24 +79,24 @@ nnoremap <C-L> :nohl<CR><C-L>
 set t_Co=256
 colorscheme zenburn
 
-if has('vim_starting')
-    set nocompatible               " Be iMproved
-    set runtimepath+=~/.vim/bundle/neobundle.vim/
-endif
+"if has('vim_starting')
+"    set nocompatible               " Be iMproved
+"    set runtimepath+=~/.vim/bundle/neobundle.vim/
+"endif
 
-call neobundle#rc(expand('~/.vim/bundle/'))
+"call neobundle#rc(expand('~/.vim/bundle/'))
 
-NeoBundleFetch 'Shougo/neobundle.vim'
+"NeoBundleFetch 'Shougo/neobundle.vim'
 
- NeoBundle 'Shougo/neocomplcache'
- NeoBundle 'Shougo/neosnippet'
- NeoBundle 'Shougo/neobundle.vim'
- NeoBundle 'Shougo/unite.vim'
- NeoBundle 'Shougo/vimfiler'
- NeoBundle 'Shougo/vimshell'
- NeoBundle 'taichouchou2/vim-rsense'
- NeoBundle 'taichouchou2/vim-rails'
- NeoBundle 'romanvbabenko/rails.vim'
+" NeoBundle 'Shougo/neocomplcache'
+" NeoBundle 'Shougo/neosnippet'
+" NeoBundle 'Shougo/neobundle.vim'
+" NeoBundle 'Shougo/unite.vim'
+" NeoBundle 'Shougo/vimfiler'
+" NeoBundle 'Shougo/vimshell'
+" NeoBundle 'taichouchou2/vim-rsense'
+" NeoBundle 'taichouchou2/vim-rails'
+" NeoBundle 'romanvbabenko/rails.vim'
 
 
-filetype plugin indent on
+"filetype plugin indent on
